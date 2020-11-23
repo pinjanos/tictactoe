@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amőba Modal</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\font-awesome-4.7.0\css\font-awesome.min.css">
+</head>
+
+<body>
+    <div class="popUpModal">
+        <button type="button" class="Modal-openBtn">Amőba Modal nyílj meg!</button>
+
+    </div>
+    <div class="modal">
+        <section>
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h3 class="game-title">Amőba</h3>
+                    <button class="modal-close"><i class="fa fa-window-close" aria-hidden="true"></i></button>
+                </header>
+                <div class="modal-text">
+                    <div class="game-container">
+                        <div data-cell-index="0" class="cell"></div>
+                        <div data-cell-index="1" class="cell"></div>
+                        <div data-cell-index="2" class="cell"></div>
+                        <div data-cell-index="3" class="cell"></div>
+                        <div data-cell-index="4" class="cell"></div>
+                        <div data-cell-index="5" class="cell"></div>
+                        <div data-cell-index="6" class="cell"></div>
+                        <div data-cell-index="7" class="cell"></div>
+                        <div data-cell-index="8" class="cell"></div>                        
+                    </div>
+                    <h2 class="game-status"></h2>
+                </div>
+                <footer class="modal-footer">
+                    <button type="button" class="modal-btn button__green">Okay</button>
+                    <button type="button" class="modal-btn button__red">Cancel</button>
+                    <button type="button" class="modal-btn game__restart">Restart</button>
+                </footer>
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="javascripts\script.js"></script>
+    <script src="javascripts\amoba.js"></script>
+    <!-- <script src="javascripts\tombok.js"></script> -->
+</body>
+
+</html>
